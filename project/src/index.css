@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900;
+}
+
+.react-datepicker {
+  @apply bg-gray-800 border-gray-700 !important;
+}
+
+.react-datepicker__header {
+  @apply bg-gray-800 border-gray-700 !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name,
+.react-datepicker__day {
+  @apply text-gray-100 !important;
+}
+
+.react-datepicker__day:hover {
+  @apply bg-blue-600 !important;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-blue-500 !important;
+}
+
+.react-datepicker__day--disabled {
+  @apply text-gray-600 !important;
+}
